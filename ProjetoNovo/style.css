@@ -1,0 +1,55 @@
+.barra-menu{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font: 30px;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+
+}
+
+.logo{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.button{
+    background: coral;
+    width: 140px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: cornsilk;
+}
+
+.texto1{
+    background-color: white;
+    box-shadow: rgb(83, 74, 74);
+    border-radius: 30px;
+    display: flex;
+    height: 150px;
+}
+
+.mainpage{
+    margin-top: 0px;
+    border-top: rgb(189, 6, 6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}

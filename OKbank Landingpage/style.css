@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(255, 171, 102);
+    
+}
+
+.sidebar-pos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar{text-align: center}
+
+.img-sidebar img{
+    width: 80%;
+    max-width: 100%;
+    padding: 30px;
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.descricao{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2{
+    color: black;
+    font-size: 60px;
+}
+section.descricao h2 > span{
+    color: rgb(255, 100, 28);
+    font-size: 60px;
+}
+section.descricao h3{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+section.descricao p{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+.solicite{
+    font-family: var(--font-action);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background: #FE4E0B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FE4E0B, #FF7F00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FE4E0B, #FF7F00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+,Opera 12+, Safari 7+ */
+    border: none;
+    padding: 1.2rem 3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0.3rem 0.3rem rgba(15, 9, 1, 0.6);
+    animation: moveBanner 1.8s forwards; /*ligado ao @keyframe moveBanner para haver animacao do texto ebotao*/ 
+}
+    
+.solicite:hover{
+    opacity: 0.8;
+    background: #747474;
+}
+.icons-social{
+    margin-top: 2rem;
+}
+
+.icons-social i{
+    color: orange;
+    font-size: 2rem;
+    margin: 15px;
+}

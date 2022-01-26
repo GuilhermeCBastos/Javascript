@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body    {
+    background: rgb(253, 159, 52);
+    font: normal    15pt    Arial;
+    color: black;
+}
+
+
+header  {
+    background: white;
+    /*font: normal    10pt    arial;*/
+    padding: 5px;
+    box-shadow: 5px 5px 5px black
+    width: 2560px;
+    height: 30px    ;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.cabecalho-logo{
+    height: 10px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: 'Sarala', sans-serif;
+    color: coral;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.corposite{
+    margin-bottom: 48px;
+    border-top: cornsilk    0.4px   solid;
+}
+
+.mainsec{
+    /*background: cornsilk;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.432);*/
+    padding: 15px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.escolha-produto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button{
+    background: coral;
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgba(294, 216, 19, 0.25);
+}
+
+/*section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.432);
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}*/
+
+footer  {
+    text-align: center;
+    font-style: italic;
+}
